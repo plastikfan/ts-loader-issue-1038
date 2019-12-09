@@ -1,0 +1,31 @@
+{
+  "name": "ts-loader-issue-1038",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:d",
+    "build:d": "webpack -d --env.mode development --display-error-details",
+    "exec": "node ./dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plastikfan/ts-loader-issue-1038.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plastikfan/ts-loader-issue-1038/issues"
+  },
+  "homepage": "https://github.com/plastikfan/ts-loader-issue-1038#readme",
+  "devDependencies": {
+    "@types/node": "^12.12.15",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-config-utils": "^2.3.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
