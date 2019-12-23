@@ -1,3 +1,4 @@
+https://github.com/TypeStrong/ts-loader/issues/1038
 
 The problem with this repo is that the webpack.config.js has specified a custom TS config file (options.configFile), but this file doesnt exist.
 
